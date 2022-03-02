@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Poppins&family=Roboto+Condensed&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <title>Manga | Kurama-store</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="./index.html"><img src="./imagenes/kurama_store_sinfondo_logo.png" alt="kuramaStore_logo"></a>
+        </div>
+        <div class="header__contenido">
+            <div class="header__redesSociales">
+                <div class="header__carrito">
+                    <a href="./productos.html#carrito"><img src="./imagenes/carrito.png" alt=""></a>
+                </div>
+                <ul>
+                    <li><a href="facebook"><img src="./imagenes/facebook.png" alt=""></a>
+                    </li>
+                    <li><a href="twitter"><img src="./imagenes/twitter.png" alt=""></a>
+                    </li>
+                    <li><a href="instagram"><img src="./imagenes/instagram.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contacto__main">
+        <div class="contacto__contenidoInfo">
+            <div>
+                <h1>ATENCÍON AL CLIENTE:</h1>
+            </div>
+            <div class="contacto__contenidoSubInfo">
+                <div class="contacto__mapa">
+                    <h2>VISITANOS:</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d820.8686796190526!2d-58.4354262!3d-34.617442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca41516e4c05%3A0x4a45036aa39eb0a5!2sAv.%20Rivadavia%204939%2C%20C1424%20CABA!5e0!3m2!1ses-419!2sar!4v1642645856837!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="contacto__subInfo">
+                    <h2>TELEFONÓ: 4123-5789</h2>
+                    <h2>HORARIOS:</h2>
+                    <ul>
+                        <li>LUNES A VIERNES DE 10 HS A 19 HS</li>
+                        <li>SABADOS DE 10 HS A 16 HS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="contacto__formulario">
+            <form action="" method="post" enctype="text/plain" class="form">
+                <fieldset>
+                    <legend>Completa el formulario</legend>
+                    <div>
+                        <label for="nombre" class="hidden">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="nombre">
+                    </div>
+                    <div>
+                        <label for="apellido" class="hidden">apellido</label>
+                        <input type="text" name="apellido" id="apellido" placeholder="apellido">
+                    </div>
+                    <div>
+                        <label for="email" class="hidden">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="asunto" id="asunto" class="hidden">Asunto</label>
+                        <select name="asunto" id="asunto">
+                            <option value="asunto">Asunto</option>
+                            <option value="sugerencia">Sugerencia</option>
+                            <option value="consulta">Consulta</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mensaje" class="hidden">Escriba su asunto</label>
+                        <textarea type="text" name="mensaje" id="mensaje" cols="50" rows="10" placeholder="Escriba su consulta"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="aceptarnewsletter" id="aceptarnewsletter" value="aceptarnewsletter">
+                        <label for="aceptarnewsletter" class="newsletter__text">Acepto recibir información sobre las novedades y promociones de kurama-store</label>
+                    </div>
+                    </div>
+                    <div>
+                        <button type="button" class="enviarDatosBoton"><strong>Enviar</strong></button>
+                        <button type="reset"><strong>Borrar</strong></button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="notificacionCard"></div>
+    </main>
+    <footer class="footer">
+        <div class="footer__copyright">
+            <p>©Kurama-store 2022. Derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./JS/formulario.js"></script>
+</body>
+</html>

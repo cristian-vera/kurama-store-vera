@@ -1,0 +1,79 @@
+.contacto__main {
+    background-color: #f10d0d;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+.contacto__contenidoInfo {
+    h1 {
+        font-family: "roboto",sans-serif;
+        font-weight: bolder;
+        letter-spacing: 0.2em;
+        text-decoration: underline;
+    }
+    h2 {
+        font-family: "poppins", sans-serif;
+        font-size: 1.7em;
+    }
+    ul {
+        li {
+            list-style: none;
+            font-family: "poppins", sans-serif;
+            font-weight: bolder;
+            font-size: 1.4em;
+        }
+    }
+}
+
+.contacto__contenidoSubInfo {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "contacto__mapa contacto__subInfo";
+}
+
+.contacto__mapa {
+    margin-right: 4em;
+}
+
+.contacto__subInfo {
+    line-height: 2.5em;
+}
+
+.contacto__formulario {
+    margin-top: 1em;
+    font-family: "poppins", sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: #ffffff;
+    width: 80%;
+    div {
+        line-height: 2.4em;
+    }
+}
+
+button {
+    width: 4em;
+    height: 1.8em;
+    font-family: "poppins", sans-serif;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.formulario__contenedor {
+    background-color: #ffffff;
+    border-color: #000000;
+    border-style: groove;
+    width: 80%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 0.75em;
+    p {
+        font-family: "poppins", sans-serif;
+        font-size: 1em;
+        font-weight: bolder;
+    }
+}

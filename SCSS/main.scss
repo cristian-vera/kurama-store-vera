@@ -1,0 +1,108 @@
+.hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff8f8;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header__logo {
+    padding-left: 1em;
+    img {
+        width: 160px;
+        height: 120px;
+    }
+}
+
+.header__contenido {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    padding-right: 1em;
+}
+
+.header__redesSociales {
+    display: flex;
+    justify-content: flex-end;
+    .header__carrito {
+        padding-right: 0.9em;
+        img {
+            width: 35px;
+            height: 35px;
+        }
+    }
+    ul {        
+        list-style: none;
+        text-align: right;
+        li {
+            display: inline-block;
+            img {
+                width: 37px;
+                height: 37px;
+            }
+        }
+    }
+}
+
+.header__nav {
+    ul {
+        list-style: none;
+        text-align: right;
+        word-spacing: 1.2em;
+        li {
+            display: inline-block;
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #f10d0d;
+                font-family: "poppins", sans-serif;
+                font-size: 1.2em;
+                font-weight: bolder;
+                &:hover {
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: #000000;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.footer__copyright {
+    p {
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-size: 0.9em;
+        color: #fff8f8
+    }
+}
+
+.grid__main {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
+
+@import "_home.scss";
+@import "_productos.scss";
+@import "_contacto.scss";
+@import "_mediaquery.scss"

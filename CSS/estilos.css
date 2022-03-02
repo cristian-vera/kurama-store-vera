@@ -1,0 +1,1004 @@
+.hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff8f8;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+.header__logo {
+  padding-left: 1em; }
+  .header__logo img {
+    width: 160px;
+    height: 120px; }
+
+.header__contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 1em; }
+
+.header__redesSociales {
+  display: flex;
+  justify-content: flex-end; }
+  .header__redesSociales .header__carrito {
+    padding-right: 0.9em; }
+    .header__redesSociales .header__carrito img {
+      width: 35px;
+      height: 35px; }
+  .header__redesSociales ul {
+    list-style: none;
+    text-align: right; }
+    .header__redesSociales ul li {
+      display: inline-block; }
+      .header__redesSociales ul li img {
+        width: 37px;
+        height: 37px; }
+
+.header__nav ul {
+  list-style: none;
+  text-align: right;
+  word-spacing: 1.2em; }
+  .header__nav ul li {
+    display: inline-block; }
+    .header__nav ul li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #f10d0d;
+      font-family: "poppins", sans-serif;
+      font-size: 1.2em;
+      font-weight: bolder; }
+      .header__nav ul li a:hover {
+        color: #000000; }
+
+.footer {
+  background-color: #000000;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.footer__copyright p {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-size: 0.9em;
+  color: #fff8f8; }
+
+.grid__main {
+  display: grid;
+  grid-template-areas: "header" "main" "footer"; }
+
+.home__banner img {
+  width: 100%;
+  height: 210px; }
+
+.home__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ff0000;
+  margin-top: -5px;
+  margin-bottom: -3px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 3em;
+  padding-left: 3em;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder; }
+  .home__cards img {
+    height: 350px;
+    width: 250px; }
+
+.home__card1 {
+  background-color: #fff8f8;
+  padding: 1em;
+  margin: 1em; }
+
+.home__card2 {
+  background-color: #fff8f8;
+  padding: 1em;
+  margin: 1em; }
+
+.home__card3 {
+  background-color: #fff8f8;
+  padding: 1em;
+  margin: 1em; }
+
+.home__card4 {
+  background-color: #fff8f8;
+  padding: 1em;
+  margin: 1em; }
+
+.home__card5 {
+  background-color: #fff8f8;
+  padding: 1em;
+  margin: 1em; }
+
+.home__card6 {
+  background-color: #fff8f8;
+  padding: 1em;
+  margin: 1em; }
+
+.card__text {
+  text-align: center;
+  line-height: 1.4em; }
+
+.card__productoFoto {
+  border-style: solid;
+  border-color: #000000; }
+
+.card__button {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.5em; }
+  .card__button button {
+    border-radius: 0.5em;
+    width: 5.6em;
+    height: 2.3em; }
+  .card__button p {
+    font-size: 1.1em; }
+
+.card__buttonVerMas {
+  padding-left: 0.2em;
+  padding-right: 0.2em; }
+  .card__buttonVerMas a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #000000; }
+
+.productos__main {
+  background-color: #ff0000;
+  padding: 0.5px;
+  padding-left: 1em;
+  padding-right: 1em; }
+  .productos__main h1 {
+    text-align: center;
+    font-family: "roboto",sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    text-decoration: underline; }
+
+.productos__card {
+  display: flex;
+  background-color: #000000;
+  margin-bottom: 1.2em;
+  padding-right: 1.3em;
+  height: 375px; }
+  .productos__card img {
+    height: 325px;
+    width: 225px;
+    margin-bottom: -3.2px;
+    padding-right: 1em; }
+  .productos__card h2 {
+    color: #ffffff;
+    font-family: "poppins", sans-serif;
+    padding-bottom: 0.25em;
+    padding-top: 0.3em; }
+  .productos__card h3 {
+    color: #ffffff;
+    font-family: "poppins", sans-serif;
+    padding-bottom: 0.4em; }
+  .productos__card p {
+    color: #ffffff;
+    font-family: "poppins", sans-serif;
+    line-height: 1.3em;
+    font-size: 1em;
+    text-align: justify; }
+
+.productos__subContenido {
+  display: flex;
+  flex-direction: column;
+  height: 375px; }
+  .productos__subContenido button {
+    width: 37px;
+    height: 40px;
+    margin-left: 5em;
+    margin-top: 0.5em; }
+    .productos__subContenido button img {
+      height: 40px;
+      width: 50px; }
+
+.productos__cardInformacion {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10em;
+  padding-top: 0.5em; }
+
+.productos__precio {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center; }
+
+.precio {
+  display: flex; }
+  .precio p {
+    padding-left: 0.3em; }
+
+.carrito {
+  background-color: #ffffff;
+  font-family: "poppins", sans-serif;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 1.2em; }
+  .carrito h4 {
+    font-size: 1.4em; }
+  .carrito h5 {
+    font-size: 1.1em; }
+
+.carrito__contenido1 {
+  display: flex;
+  justify-content: space-between; }
+  .carrito__contenido1 button {
+    width: 7.8em;
+    border-radius: 0.8em;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bolder; }
+
+.carrito__header {
+  display: flex; }
+
+.carrito__headerProducto {
+  width: 22.5em; }
+
+.carrito__headerPrecio {
+  text-align: center;
+  width: 20em; }
+
+.carrito__headerCantidad {
+  padding-left: 4em;
+  text-align: center; }
+
+.itemCarrito {
+  display: flex; }
+  .itemCarrito img {
+    height: 125px;
+    width: 75px; }
+
+.carrito__subContenido {
+  padding-bottom: 0.5em; }
+
+.itemSubCarrito {
+  display: flex; }
+  .itemSubCarrito p {
+    padding-left: 0.5em;
+    padding-top: 3em; }
+
+.carritoItemTitulo {
+  width: 20em;
+  font-weight: bolder; }
+
+.itemSubCarrito2 {
+  padding-top: 3em;
+  width: 20em;
+  text-align: center; }
+  .itemSubCarrito2 p {
+    font-weight: bolder;
+    font-size: 1.5em; }
+
+.carrito__cantidad {
+  padding-top: 2.3em;
+  padding-left: 3em; }
+  .carrito__cantidad input {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2em; }
+  .carrito__cantidad button {
+    border-radius: 0.8em;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bolder;
+    width: 2em; }
+
+.carritoPrecioFinal {
+  padding-top: 0.5em; }
+  .carritoPrecioFinal p {
+    font-weight: bolder; }
+  .carritoPrecioFinal button {
+    border-radius: 0.8em;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bolder;
+    width: 5.2em; }
+
+.contacto__main {
+  background-color: #f10d0d;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px; }
+
+.contacto__contenidoInfo h1 {
+  font-family: "roboto",sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.2em;
+  text-decoration: underline; }
+
+.contacto__contenidoInfo h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 1.7em; }
+
+.contacto__contenidoInfo ul li {
+  list-style: none;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 1.4em; }
+
+.contacto__contenidoSubInfo {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "contacto__mapa contacto__subInfo"; }
+
+.contacto__mapa {
+  margin-right: 4em; }
+
+.contacto__subInfo {
+  line-height: 2.5em; }
+
+.contacto__formulario {
+  margin-top: 1em;
+  font-family: "poppins", sans-serif;
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: #ffffff;
+  width: 80%; }
+  .contacto__formulario div {
+    line-height: 2.4em; }
+
+button {
+  width: 4em;
+  height: 1.8em;
+  font-family: "poppins", sans-serif;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+.formulario__contenedor {
+  background-color: #ffffff;
+  border-color: #000000;
+  border-style: groove;
+  width: 80%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0.75em; }
+  .formulario__contenedor p {
+    font-family: "poppins", sans-serif;
+    font-size: 1em;
+    font-weight: bolder; }
+
+@media only screen and (min-width: 922px) and (max-width: 1125px) {
+  .productos__card {
+    height: 415px; }
+    .productos__card p {
+      font-size: 0.9em; }
+  .carritoItemTitulo {
+    width: 18em;
+    font-weight: bolder; }
+  .carrito__headerPrecio {
+    text-align: center;
+    width: 12em; }
+  .itemSubCarrito2 {
+    width: 14em;
+    text-align: center; }
+    .itemSubCarrito2 p {
+      font-weight: bolder;
+      font-size: 1.5em; }
+  .carrito__headerCantidad {
+    padding-left: 3em;
+    text-align: center; }
+  .carrito__cantidad {
+    padding-top: 2.3em;
+    padding-left: 3em; }
+    .carrito__cantidad input {
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1.2em;
+      width: 70%; }
+    .carrito__cantidad button {
+      border-radius: 0.8em;
+      width: 2em; } }
+
+@media only screen and (min-width: 813px) and (max-width: 921px) {
+  .productos__card {
+    height: 430px; }
+    .productos__card p {
+      font-size: 0.85em; }
+  .productos__cardInformacion {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5em;
+    padding-top: 0.3em; }
+  .carrito__headerProducto {
+    width: 21em; }
+  .carritoItemTitulo {
+    width: 16em;
+    font-weight: bolder; }
+  .carrito__headerPrecio {
+    text-align: center;
+    width: 10.5em; }
+  .itemSubCarrito2 {
+    width: 14em;
+    text-align: center; }
+    .itemSubCarrito2 p {
+      font-weight: bolder;
+      font-size: 1.5em; }
+  .carrito__headerCantidad {
+    padding-left: 3em;
+    text-align: center; }
+  .carrito__cantidad {
+    padding-top: 2.3em;
+    padding-left: 3em; }
+    .carrito__cantidad input {
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1.2em;
+      width: 70%; }
+    .carrito__cantidad button {
+      border-radius: 0.8em;
+      width: 2em; } }
+
+@media only screen and (min-width: 775px) and (max-width: 812px) {
+  .productos__card {
+    height: 430px; }
+    .productos__card img {
+      height: 325px;
+      width: 200px; }
+    .productos__card p {
+      font-size: 0.83em; }
+  .productos__cardInformacion {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5em;
+    padding-top: 0.5em; }
+  .carrito__headerProducto {
+    width: 18em; }
+  .carritoItemTitulo {
+    width: 13em;
+    font-weight: bolder; }
+  .carrito__headerPrecio {
+    text-align: center;
+    width: 10.5em; }
+  .itemSubCarrito2 {
+    width: 14em;
+    text-align: center; }
+    .itemSubCarrito2 p {
+      font-weight: bolder;
+      font-size: 1.5em; }
+  .carrito__headerCantidad {
+    padding-left: 2.5em;
+    text-align: center; }
+  .carrito__cantidad {
+    padding-top: 2.3em;
+    padding-left: 1.7em; }
+    .carrito__cantidad input {
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1.2em;
+      width: 70%; }
+    .carrito__cantidad button {
+      border-radius: 0.8em;
+      width: 2em; } }
+
+@media only screen and (min-width: 746px) and (max-width: 774px) {
+  .productos__card {
+    height: 410px; }
+    .productos__card img {
+      height: 325px;
+      width: 200px; }
+    .productos__card p {
+      font-size: 0.8em; }
+  .productos__cardInformacion {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5em;
+    padding-top: 0.5em; }
+  .carrito__headerProducto {
+    width: 18em; }
+  .carritoItemTitulo {
+    width: 13em;
+    font-weight: bolder; }
+  .carrito__headerPrecio {
+    text-align: center;
+    width: 10.5em; }
+  .itemSubCarrito2 {
+    width: 14em;
+    text-align: center; }
+    .itemSubCarrito2 p {
+      font-weight: bolder;
+      font-size: 1.5em; }
+  .carrito__headerCantidad {
+    padding-left: 2.5em;
+    text-align: center; }
+  .carrito__cantidad {
+    padding-top: 2.3em;
+    padding-left: 1.7em; }
+    .carrito__cantidad input {
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1.2em;
+      width: 70%; }
+    .carrito__cantidad button {
+      border-radius: 0.8em;
+      width: 2em; } }
+
+@media only screen and (min-width: 668px) and (max-width: 745px) {
+  .home__cards {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em; }
+    .home__cards img {
+      height: 300px;
+      width: 200px; }
+  .home__card1 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card2 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card3 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card4 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card5 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card6 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .card__text {
+    text-align: center;
+    line-height: 1.4em; }
+  .card__titulo {
+    width: 180px;
+    padding-left: 1em; }
+  .card__button button {
+    border-radius: 0.5em;
+    width: 5em;
+    height: 2em; }
+  .card__button p {
+    font-size: 1em; }
+  .card__buttonVerMas {
+    padding-left: 5px;
+    padding-right: 5px; }
+    .card__buttonVerMas a {
+      text-decoration: none;
+      font-size: 1em;
+      font-weight: bolder;
+      color: #000000; }
+  .productos__card {
+    height: 420px; }
+    .productos__card img {
+      height: 325px;
+      width: 200px; }
+    .productos__card p {
+      font-size: 0.75em; }
+  .productos__cardInformacion {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5em;
+    padding-top: 0.4em; }
+  .carrito__headerProducto {
+    width: 15em; }
+  .carritoItemTitulo {
+    width: 10em;
+    font-weight: bolder; }
+  .carrito__headerPrecio {
+    text-align: center;
+    width: 9em; }
+  .itemSubCarrito2 {
+    width: 12em;
+    text-align: center; }
+    .itemSubCarrito2 p {
+      font-weight: bolder;
+      font-size: 1.5em; }
+  .carrito__headerCantidad {
+    padding-left: 2.5em;
+    text-align: center; }
+  .carrito__cantidad {
+    padding-top: 2.3em;
+    padding-left: 1.7em; }
+    .carrito__cantidad input {
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1.2em;
+      width: 70%; }
+    .carrito__cantidad button {
+      border-radius: 0.8em;
+      width: 2em; } }
+
+@media only screen and (min-width: 600px) and (max-width: 667px) {
+  .home__cards {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em; }
+    .home__cards img {
+      height: 300px;
+      width: 200px; }
+  .home__card1 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card2 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card3 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card4 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card5 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card6 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .card__text {
+    text-align: center;
+    line-height: 1.4em; }
+  .card__titulo {
+    width: 180px;
+    padding-left: 1em; }
+  .card__button button {
+    border-radius: 0.5em;
+    width: 5em;
+    height: 2em; }
+  .card__button p {
+    font-size: 1em; }
+  .card__buttonVerMas {
+    padding-left: 5px;
+    padding-right: 5px; }
+    .card__buttonVerMas a {
+      text-decoration: none;
+      font-size: 1em;
+      font-weight: bolder;
+      color: #000000; }
+  .productos__main h1 {
+    font-size: 1.6em; }
+  .productos__card {
+    height: 410px; }
+    .productos__card img {
+      height: 325px;
+      width: 200px; }
+    .productos__card h2 {
+      font-size: 1.2em;
+      padding-bottom: 0.1em; }
+    .productos__card h3 {
+      font-size: 1em;
+      padding-bottom: 0.2em; }
+    .productos__card p {
+      font-size: 0.73em;
+      line-height: 1.2em; }
+  .productos__cardInformacion {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2em;
+    padding-top: 0.5em; }
+  .carrito__headerProducto {
+    width: 15em; }
+  .carritoItemTitulo {
+    width: 10em;
+    font-weight: bolder; }
+  .carrito__headerPrecio {
+    text-align: center;
+    width: 8em; }
+  .itemSubCarrito2 {
+    width: 11em;
+    text-align: center; }
+    .itemSubCarrito2 p {
+      font-weight: bolder;
+      font-size: 1.5em; }
+  .carrito__headerCantidad {
+    padding-left: 1.5em;
+    text-align: center; }
+  .carrito__cantidad {
+    padding-top: 2.1em;
+    padding-left: 1em; }
+    .carrito__cantidad input {
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1em;
+      width: 60%; }
+    .carrito__cantidad button {
+      border-radius: 0.8em;
+      width: 2em; }
+  .contacto__mapa {
+    margin-right: 3em; }
+    .contacto__mapa iframe {
+      width: 350px; }
+  .contacto__subInfo {
+    font-size: 0.9em; } }
+
+@media only screen and (min-width: 550px) and (max-width: 599px) {
+  .header__nav ul {
+    word-spacing: 1.1em; }
+    .header__nav ul li a {
+      font-size: 1.1em; }
+  .home__cards {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em; }
+    .home__cards img {
+      height: 300px;
+      width: 200px; }
+  .home__card1 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card2 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card3 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card4 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card5 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .home__card6 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 1em; }
+  .card__text {
+    text-align: center;
+    line-height: 1.4em; }
+  .card__titulo {
+    width: 180px;
+    padding-left: 1em; }
+  .card__button button {
+    border-radius: 0.5em;
+    width: 5em;
+    height: 2em; }
+  .card__button p {
+    font-size: 1em; }
+  .card__buttonVerMas {
+    padding-left: 5px;
+    padding-right: 5px; }
+    .card__buttonVerMas a {
+      text-decoration: none;
+      font-size: 1em;
+      font-weight: bolder;
+      color: #000000; }
+  .productos__main h1 {
+    font-size: 1.6em; }
+  .productos__card {
+    height: 425px; }
+    .productos__card img {
+      height: 325px;
+      width: 200px; }
+    .productos__card h2 {
+      font-size: 1.2em;
+      padding-bottom: 0.1em; }
+    .productos__card h3 {
+      font-size: 1em;
+      padding-bottom: 0.2em; }
+    .productos__card p {
+      font-size: 0.7em;
+      line-height: 1.2em; }
+  .productos__cardInformacion {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1em;
+    padding-top: 0.3em; }
+  .productos__precio {
+    font-size: 1.3em; }
+  .carrito__headerProducto {
+    width: 13.5em; }
+  .carritoItemTitulo {
+    width: 10em;
+    font-weight: bolder; }
+  .carrito__headerPrecio {
+    text-align: center;
+    width: 7em; }
+  .itemSubCarrito2 {
+    width: 8em;
+    text-align: center; }
+    .itemSubCarrito2 p {
+      font-weight: bolder;
+      font-size: 1.2em; }
+  .carrito__headerCantidad {
+    padding-left: 1em;
+    text-align: center; }
+  .carrito__cantidad {
+    padding-top: 2.1em;
+    padding-left: 0.8em; }
+    .carrito__cantidad input {
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1em;
+      width: 60%; }
+    .carrito__cantidad button {
+      border-radius: 0.8em;
+      width: 2em; }
+  .contacto__main h1 {
+    font-size: 1.6em; }
+  .contacto__mapa {
+    font-size: 0.8em;
+    margin-right: 2em; }
+    .contacto__mapa iframe {
+      width: 350px; }
+  .contacto__subInfo {
+    font-size: 0.8em; }
+  .contacto__formulario {
+    width: 90%; } }
+
+@media only screen and (min-width: 500px) and (max-width: 549px) {
+  .header__redesSociales .header__carrito {
+    padding-right: 0.9em; }
+    .header__redesSociales .header__carrito img {
+      width: 30px;
+      height: 30px; }
+  .header__redesSociales ul li img {
+    width: 30px;
+    height: 30px; }
+  .header__nav ul {
+    word-spacing: 0.7em; }
+    .header__nav ul li a {
+      font-size: 1em; }
+  .home__cards {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em; }
+    .home__cards img {
+      height: 300px;
+      width: 200px; }
+  .home__card1 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 0.5em; }
+  .home__card2 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 0.5em; }
+  .home__card3 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 0.5em; }
+  .home__card4 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 0.5em; }
+  .home__card5 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 0.5em; }
+  .home__card6 {
+    background-color: #fff8f8;
+    padding: 0.5em;
+    margin: 0.5em; }
+  .card__text {
+    text-align: center;
+    line-height: 1.4em; }
+  .card__titulo {
+    width: 180px;
+    padding-left: 1em; }
+  .card__button button {
+    border-radius: 0.5em;
+    width: 5em;
+    height: 2em; }
+  .card__button p {
+    font-size: 1em; }
+  .card__buttonVerMas {
+    padding-left: 5px;
+    padding-right: 5px; }
+    .card__buttonVerMas a {
+      text-decoration: none;
+      font-size: 1em;
+      font-weight: bolder;
+      color: #000000; }
+  .productos__main h1 {
+    font-size: 1.4em; }
+  .productos__card {
+    height: 455px; }
+    .productos__card img {
+      height: 325px;
+      width: 180px;
+      padding-right: 0.5em; }
+    .productos__card h2 {
+      font-size: 1em;
+      padding-bottom: 0.1em; }
+    .productos__card h3 {
+      font-size: 0.8em;
+      padding-bottom: 0.2em; }
+    .productos__card p {
+      font-size: 0.7em;
+      line-height: 1.2em; }
+  .productos__subContenido {
+    display: flex;
+    flex-direction: column;
+    height: 375px; }
+    .productos__subContenido button {
+      width: 37px;
+      height: 40px;
+      margin-left: 4em;
+      margin-top: 0.5em; }
+      .productos__subContenido button img {
+        height: 35px;
+        width: 40px; }
+  .productos__cardInformacion {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.5em;
+    padding-top: 0.3em; }
+  .productos__precio {
+    font-size: 1.1em; }
+  .carrito__headerProducto {
+    width: 12em; }
+  .carritoItemTitulo {
+    width: 9.5em;
+    font-weight: bolder; }
+  .carrito__headerPrecio {
+    text-align: center;
+    width: 7em; }
+  .itemSubCarrito2 {
+    width: 6em;
+    text-align: center; }
+    .itemSubCarrito2 p {
+      font-weight: bolder;
+      font-size: 1.2em; }
+  .carrito__headerCantidad {
+    padding-left: 0.4em;
+    text-align: center; }
+  .carrito__cantidad {
+    padding-top: 2.1em;
+    padding-left: 0.9em; }
+    .carrito__cantidad input {
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1em;
+      width: 50%; }
+    .carrito__cantidad button {
+      border-radius: 0.8em;
+      width: 2em; }
+  .contacto__main h1 {
+    font-size: 1.4em; }
+  .contacto__mapa {
+    font-size: 0.8em;
+    margin-right: 1.5em; }
+    .contacto__mapa iframe {
+      width: 300px; }
+  .contacto__subInfo {
+    font-size: 0.8em; }
+  .contacto__formulario {
+    width: 90%; }
+    .contacto__formulario textarea {
+      width: 90%; }
+  .newsletter__text {
+    font-size: 1em;
+    line-height: 0.1em; } }

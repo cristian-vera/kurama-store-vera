@@ -1,0 +1,872 @@
+//sitio responsive
+@media only screen and (min-width:922px) and (max-width:1125px) {
+    .productos__card {
+        height: 415px;
+        p {
+            font-size: 0.9em;
+        }
+    }
+    .carritoItemTitulo {
+        width: 18em;
+        font-weight: bolder;
+    }
+    .carrito__headerPrecio {
+        text-align: center;
+        width: 12em;
+    }
+    .itemSubCarrito2 {
+        width: 14em;
+        text-align: center;
+        p {
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+    }
+    .carrito__headerCantidad {
+        padding-left: 3em;
+        text-align: center;
+    }
+    .carrito__cantidad {
+        padding-top: 2.3em;
+        padding-left: 3em;
+        input {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1.2em;
+            width: 70%;
+        }
+        button {
+            border-radius: 0.8em;
+            width: 2em;
+        }
+    }
+}
+
+@media only screen and (min-width:813px) and (max-width:921px) {
+    .productos__card {
+        height: 430px;
+        p {
+            font-size: 0.85em;
+        }
+    }
+    .productos__cardInformacion {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 5em;
+        padding-top: 0.3em;
+    }
+
+    .carrito__headerProducto {
+        width: 21em;
+    }
+    .carritoItemTitulo {
+        width: 16em;
+        font-weight: bolder;
+    }
+    .carrito__headerPrecio {
+        text-align: center;
+        width: 10.5em;
+    }
+    .itemSubCarrito2 {
+        width: 14em;
+        text-align: center;
+        p {
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+    }
+    .carrito__headerCantidad {
+        padding-left: 3em;
+        text-align: center;
+    }
+    .carrito__cantidad {
+        padding-top: 2.3em;
+        padding-left: 3em;
+        input {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1.2em;
+            width: 70%;
+        }
+        button {
+            border-radius: 0.8em;
+            width: 2em;
+        }
+    }
+}
+
+@media only screen and (min-width:775px) and (max-width:812px) {
+    .productos__card {
+        height: 430px;
+        img {
+            height: 325px;
+            width: 200px;
+        }
+        p {
+            font-size: 0.83em;
+        }
+    }
+    .productos__cardInformacion {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 5em;
+        padding-top: 0.5em;
+    }
+
+    .carrito__headerProducto {
+        width: 18em;
+    }
+    .carritoItemTitulo {
+        width: 13em;
+        font-weight: bolder;
+    }
+    .carrito__headerPrecio {
+        text-align: center;
+        width: 10.5em;
+    }
+    .itemSubCarrito2 {
+        width: 14em;
+        text-align: center;
+        p {
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+    }
+    .carrito__headerCantidad {
+        padding-left: 2.5em;
+        text-align: center;
+    }
+    .carrito__cantidad {
+        padding-top: 2.3em;
+        padding-left: 1.7em;
+        input {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1.2em;
+            width: 70%;
+        }
+        button {
+            border-radius: 0.8em;
+            width: 2em;
+        }
+    }
+}
+
+@media only screen and (min-width:746px) and (max-width:774px) {
+    .productos__card {
+        height: 410px;
+        img {
+            height: 325px;
+            width: 200px;
+        }
+        p {
+            font-size: 0.8em;
+        }
+    }
+    .productos__cardInformacion {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 5em;
+        padding-top: 0.5em;
+    }
+
+    .carrito__headerProducto {
+        width: 18em;
+    }
+    .carritoItemTitulo {
+        width: 13em;
+        font-weight: bolder;
+    }
+    .carrito__headerPrecio {
+        text-align: center;
+        width: 10.5em;
+    }
+    .itemSubCarrito2 {
+        width: 14em;
+        text-align: center;
+        p {
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+    }
+    .carrito__headerCantidad {
+        padding-left: 2.5em;
+        text-align: center;
+    }
+    .carrito__cantidad {
+        padding-top: 2.3em;
+        padding-left: 1.7em;
+        input {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1.2em;
+            width: 70%;
+        }
+        button {
+            border-radius: 0.8em;
+            width: 2em;
+        }
+    }
+}
+
+@media only screen and (min-width:668px) and (max-width:745px) {
+    .home__cards {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 1em;
+        padding-left: 1em;
+        img {
+            height: 300px;
+            width: 200px;
+        }
+    }
+    .home__card1 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card2 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card3 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card4 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card5 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card6 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .card__text {
+        text-align: center;
+        line-height: 1.4em;
+    }
+    .card__titulo {
+        width: 180px;
+        padding-left: 1em;
+    }
+    .card__button {
+        button {
+            border-radius: 0.5em;
+            width: 5em;
+            height: 2em;
+        }
+        p {
+            font-size: 1em;
+        }
+    }
+    .card__buttonVerMas {
+        padding-left: 5px;
+        padding-right: 5px;
+        a {
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bolder;
+            color: #000000;
+        }
+    }
+
+    .productos__card {
+        height: 420px;
+        img {
+            height: 325px;
+            width: 200px;
+        }
+        p {
+            font-size: 0.75em;
+        }
+    }
+    .productos__cardInformacion {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 5em;
+        padding-top: 0.4em;
+    }
+
+    .carrito__headerProducto {
+        width: 15em;
+    }
+    .carritoItemTitulo {
+        width: 10em;
+        font-weight: bolder;
+    }
+    .carrito__headerPrecio {
+        text-align: center;
+        width: 9em;
+    }
+    .itemSubCarrito2 {
+        width: 12em;
+        text-align: center;
+        p {
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+    }
+    .carrito__headerCantidad {
+        padding-left: 2.5em;
+        text-align: center;
+    }
+    .carrito__cantidad {
+        padding-top: 2.3em;
+        padding-left: 1.7em;
+        input {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1.2em;
+            width: 70%;
+        }
+        button {
+            border-radius: 0.8em;
+            width: 2em;
+        }
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:667px) {
+    .home__cards {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 1em;
+        padding-left: 1em;
+        img {
+            height: 300px;
+            width: 200px;
+        }
+    }
+    .home__card1 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card2 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card3 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card4 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card5 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card6 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .card__text {
+        text-align: center;
+        line-height: 1.4em;
+    }
+    .card__titulo {
+        width: 180px;
+        padding-left: 1em;
+    }
+    .card__button {
+        button {
+            border-radius: 0.5em;
+            width: 5em;
+            height: 2em;
+        }
+        p {
+            font-size: 1em;
+        }
+    }
+    .card__buttonVerMas {
+        padding-left: 5px;
+        padding-right: 5px;
+        a {
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bolder;
+            color: #000000;
+        }
+    }
+
+    .productos__main {
+        h1 {
+            font-size: 1.6em;
+        }
+    }
+    .productos__card {
+        height: 410px;
+        img {
+            height: 325px;
+            width: 200px;
+        }
+        h2 {
+            font-size: 1.2em;
+            padding-bottom: 0.1em;
+        }
+        h3 {
+            font-size: 1em;
+            padding-bottom: 0.2em;
+        }
+        p {
+            font-size: 0.73em;
+            line-height: 1.2em;
+        }
+    }
+    .productos__cardInformacion {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2em;
+        padding-top: 0.5em;
+    }
+
+    .carrito__headerProducto {
+        width: 15em;
+    }
+    .carritoItemTitulo {
+        width: 10em;
+        font-weight: bolder;
+    }
+    .carrito__headerPrecio {
+        text-align: center;
+        width: 8em;
+    }
+    .itemSubCarrito2 {
+        width: 11em;
+        text-align: center;
+        p {
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+    }
+    .carrito__headerCantidad {
+        padding-left: 1.5em;
+        text-align: center;
+    }
+    .carrito__cantidad {
+        padding-top: 2.1em;
+        padding-left: 1em;
+        input {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1em;
+            width: 60%;
+        }
+        button {
+            border-radius: 0.8em;
+            width: 2em;
+        }
+    }
+
+    .contacto__mapa {
+        margin-right: 3em;
+        iframe {
+            width: 350px;
+        }
+    }
+    .contacto__subInfo {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width:550px) and (max-width:599px) {
+    .header__nav {
+        ul {
+            word-spacing: 1.1em;
+            li {
+                a {
+                    font-size: 1.1em;
+                }
+            }
+        }
+    }
+
+    .home__cards {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 1em;
+        padding-left: 1em;
+        img {
+            height: 300px;
+            width: 200px;
+        }
+    }
+    .home__card1 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card2 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card3 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card4 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card5 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .home__card6 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 1em;
+    }
+    .card__text {
+        text-align: center;
+        line-height: 1.4em;
+    }
+    .card__titulo {
+        width: 180px;
+        padding-left: 1em;
+    }
+    .card__button {
+        button {
+            border-radius: 0.5em;
+            width: 5em;
+            height: 2em;
+        }
+        p {
+            font-size: 1em;
+        }
+    }
+    .card__buttonVerMas {
+        padding-left: 5px;
+        padding-right: 5px;
+        a {
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bolder;
+            color: #000000;
+        }
+    }
+
+    .productos__main {
+        h1 {
+            font-size: 1.6em;
+        }
+    }
+    .productos__card {
+        height: 425px;
+        img {
+            height: 325px;
+            width: 200px;
+        }
+        h2 {
+            font-size: 1.2em;
+            padding-bottom: 0.1em;
+        }
+        h3 {
+            font-size: 1em;
+            padding-bottom: 0.2em;
+        }
+        p {
+            font-size: 0.7em;
+            line-height: 1.2em;
+        }
+    }
+    .productos__cardInformacion {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 1em;
+        padding-top: 0.3em;
+    }
+    .productos__precio {
+        font-size: 1.3em;
+    }
+
+    .carrito__headerProducto {
+        width: 13.5em;
+    }
+    .carritoItemTitulo {
+        width: 10em;
+        font-weight: bolder;
+    }
+    .carrito__headerPrecio {
+        text-align: center;
+        width: 7em;
+    }
+    .itemSubCarrito2 {
+        width: 8em;
+        text-align: center;
+        p {
+            font-weight: bolder;
+            font-size: 1.2em;
+        }
+    }
+    .carrito__headerCantidad {
+        padding-left: 1em;
+        text-align: center;
+    }
+    .carrito__cantidad {
+        padding-top: 2.1em;
+        padding-left: 0.8em;
+        input {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1em;
+            width: 60%;
+        }
+        button {
+            border-radius: 0.8em;
+            width: 2em;
+        }
+    }
+
+    .contacto__main {
+        h1 {
+            font-size: 1.6em;
+        }
+    }
+    .contacto__mapa {
+        font-size: 0.8em;
+        margin-right: 2em;
+        iframe {
+            width: 350px;
+        }
+    }
+    .contacto__subInfo {
+        font-size: 0.8em;
+    }
+    .contacto__formulario {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:549px) {
+    .header__redesSociales {
+        .header__carrito {
+            padding-right: 0.9em;
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+        ul {        
+            li {
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .header__nav {
+        ul {
+            word-spacing: 0.7em;
+            li {
+                a {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    .home__cards {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 0.5em;
+        padding-left: 0.5em;
+        img {
+            height: 300px;
+            width: 200px;
+        }
+    }
+    .home__card1 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+    .home__card2 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+    .home__card3 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+    .home__card4 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+    .home__card5 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+    .home__card6 {
+        background-color: #fff8f8;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+    .card__text {
+        text-align: center;
+        line-height: 1.4em;
+    }
+    .card__titulo {
+        width: 180px;
+        padding-left: 1em;
+    }
+    .card__button {
+        button {
+            border-radius: 0.5em;
+            width: 5em;
+            height: 2em;
+        }
+        p {
+            font-size: 1em;
+        }
+    }
+    .card__buttonVerMas {
+        padding-left: 5px;
+        padding-right: 5px;
+        a {
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bolder;
+            color: #000000;
+        }
+    }
+
+    .productos__main {
+        h1 {
+            font-size: 1.4em;
+        }
+    }
+    .productos__card {
+        height: 455px;
+        img {
+            height: 325px;
+            width: 180px;
+            padding-right: 0.5em;
+        }
+        h2 {
+            font-size: 1em;
+            padding-bottom: 0.1em;
+        }
+        h3 {
+            font-size: 0.8em;
+            padding-bottom: 0.2em;
+        }
+        p {
+            font-size: 0.7em;
+            line-height: 1.2em;
+        }
+    }
+    .productos__subContenido {
+        display: flex;
+        flex-direction: column;
+        height: 375px;
+        button {
+            width: 37px;
+            height: 40px;
+            margin-left: 4em;
+            margin-top: 0.5em;
+            img {
+                height: 35px;
+                width: 40px;
+            }
+        }
+    }
+    .productos__cardInformacion {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0.5em;
+        padding-top: 0.3em;
+    }
+    .productos__precio {
+        font-size: 1.1em;
+    }
+
+    .carrito__headerProducto {
+        width: 12em;
+    }
+    .carritoItemTitulo {
+        width: 9.5em;
+        font-weight: bolder;
+    }
+    .carrito__headerPrecio {
+        text-align: center;
+        width: 7em;
+    }
+    .itemSubCarrito2 {
+        width: 6em;
+        text-align: center;
+        p {
+            font-weight: bolder;
+            font-size: 1.2em;
+        }
+    }
+    .carrito__headerCantidad {
+        padding-left: 0.4em;
+        text-align: center;
+    }
+    .carrito__cantidad {
+        padding-top: 2.1em;
+        padding-left: 0.9em;
+        input {
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1em;
+            width: 50%;
+        }
+        button {
+            border-radius: 0.8em;
+            width: 2em;
+        }
+    }
+
+    .contacto__main {
+        h1 {
+            font-size: 1.4em;
+        }
+    }
+    .contacto__mapa {
+        font-size: 0.8em;
+        margin-right: 1.5em;
+        iframe {
+            width: 300px;
+        }
+    }
+    .contacto__subInfo {
+        font-size: 0.8em;
+    }
+    .contacto__formulario {
+        width: 90%;
+        textarea {
+            width: 90%;
+        }
+    }
+    .newsletter__text {
+        font-size: 1em;
+        line-height: 0.1em;
+    }
+}
